@@ -89,7 +89,7 @@ WIDTH, HEIGHT = 1280, 720
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Blackjack Coach")
 
-table_image = pygame.image.load("output.png")
+table_image = pygame.image.load("table.png")
 table_image = pygame.transform.scale(table_image, (WIDTH, HEIGHT))
 
 # Load card images for each suit.
